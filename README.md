@@ -44,23 +44,7 @@ The Infographic Generator is a web service designed to create professional infog
 - **Python 3.8+**
 - **Inkscape:**  
   Inkscape must be installed on your system. The application uses Inkscape for converting generated images to SVG format.
-- Dependencies are listed in the [requirements.txt](./requirements.txt) file:
-  ```plaintext
-  fastapi
-  pytest
-  uvicorn
-  Pillow
-  langdetect
-  arabic_reshaper
-  python-bidi
-  protobuf
-  pydantic
-  google-auth
-  google-generativeai
-  ```
-
----
-
+- Dependencies are listed in the [requirements.txt](./requirements.txt) file.
 ## Installation and Setup
 
 1. **Clone the Repository:**
