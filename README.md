@@ -64,7 +64,7 @@ The Infographic Generator is a web service designed to create professional infog
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/poptarts12/infographic-generator/
+   git clone https://github.com/poptarts12/infographic-generator.git
    cd infographic-generator
    ```
 
