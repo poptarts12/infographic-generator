@@ -51,6 +51,7 @@ The Infographic Generator is a web service designed to create professional infog
   Pillow
   langdetect
   arabic_reshaper
+  pytest
   python-bidi
   protobuf
   pydantic
