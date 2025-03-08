@@ -12,7 +12,6 @@ The Infographic Generator is a web service designed to create professional infog
 - [Prompting Instructions](#prompting-instructions)
 - [API Documentation](#api-documentation)
 - [Project Structure](#project-structure)
-- [Technologies and Tools](#technologies-and-tools)
 - [Testing](#testing)
 - [Future Improvements](#future-improvements)
 
