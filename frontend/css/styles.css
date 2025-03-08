@@ -1,0 +1,133 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Header */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Textarea Styling */
+textarea {
+    width: 80%;
+    max-width: 600px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    resize: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+/* Generate Button Styling */
+.generate-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.generate-btn:hover {
+    background-color: #0056b3;
+}
+
+/* 2x2 grid container for output */
+.output-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    justify-items: center;
+    align-items: start;
+    margin-top: 20px;
+    max-width: 700px; /* Optional: constrain overall output width */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Each infographic item */
+.infographic-item {
+    width: 100%;
+    max-width: 280px; /* Thumbnail max width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Force the image to scale to its container (as a thumbnail) */
+.infographic-item img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+/* Individual Download Button */
+.download-btn {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Download All Button */
+.download-all-btn {
+    margin-top: 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+.download-all-btn:hover {
+    background-color: #0056b3;
+}
+
+.status-container {
+    display: flex;
+    justify-content: center;  /* horizontally center the child */
+    margin-top: 20px;
+    width: 100%;              /* ensure it spans the full width */
+  }
+  
+  .status-message {
+    font-size: 18px;
+    color: #555;
+    text-align: center;       /* also center text within the message box */
+  }
+  

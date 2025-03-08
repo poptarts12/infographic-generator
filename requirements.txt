@@ -1,0 +1,9 @@
+arabic_reshaper==3.0.0
+fastapi==0.115.11
+langdetect==1.0.9
+Pillow==11.1.0
+protobuf==6.30.0
+pydantic==2.10.6
+uvicorn==0.34.0
+google-auth==2.38.0
+google-genai==1.5.0

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Infographic Generator</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="header">
+    <div class="header-container">
+      <h1>Infographic Generator</h1>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Intro / Hero Section -->
+    <section class="intro">
+      <h2>Create Custom Infographics</h2>
+      <p>
+        Enter your text and click the button to generate a professional infographic in four languages.
+        You can view and download your generated files.
+      </p>
+    </section>
+
+    <!-- Generator Section -->
+    <section class="generator">
+      <div class="input-group">
+        <textarea id="textInput" placeholder="Type your text here..."></textarea>
+        <button class="generate-btn" onclick="processText()">Generate Infographic</button>
+      </div>
+    </section>
+
+    <div class="status-container">
+      <div class="status-message">
+      </div>
+    </div>
+
+    <!-- Output Section -->
+    <section id="output" class="output-section">
+      <!-- Generated infographic images will appear here -->
+    </section>
+
+    <button class="download-all-btn" onclick="downloadAllImages()">Download All Infographics</button>
+
+  </main>
+
+  <!-- Link to your JavaScript file -->
+  <script src="js/main.js"></script>
+</body>
+</html>
